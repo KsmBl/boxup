@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Rustys Backups </title>
+	<link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+	<div id="topbarcontainer"> </div>
+
+	<div id="content">
+		<div id="containerIds">
+			<div id="sizer" style="background-color: #00000000; height: 0px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;"> </div>
+		</div>
+
+		<div id="containerManagement" class="hide">
+			<p id="id"> ID: ## </p>
+			<p id="lbu"> last backup: ##.##.#### ##:## </p>
+			<br>
+			<p> saved paths: </p>
+			<input id="sps"> </input>
+			<br>
+			<br>
+			<p> backup location: </p>
+			<input id="bul"> </input>
+			<br>
+			<br>
+			<div id="button" onclick="save()"> save </div>
+			<div id="button" onclick="backup()"> backup now </div>
+		</div>
+	</div>
+
+	<script src="/libary.js"> </script>
+	<script src="/script.js"> </script>
+</body>
+</html>
